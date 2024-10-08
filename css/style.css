@@ -67,7 +67,7 @@ main {
 /* Box2 Style */
 main .box2 {
     background-color: var(--bg_kedua);
-    color: var(--bg_utama);
+    color: var(--bg_utama)!important;
     padding: 1rem;
     border-radius: 1rem;
     margin-top: 1rem;
@@ -118,6 +118,10 @@ textarea {
 }
 
 .box1 article, label {
+    color: white;
+}
+
+.box1 p {
     color: white;
 }
 
