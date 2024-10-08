@@ -1,0 +1,122 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Variabel Warna */
+:root {
+    --bg_utama : #021526;
+    --bg_kedua : #6EACDA;
+}
+
+/* Global Style */
+* {
+    font-family: roboto;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* Style Body */
+body {
+    display: flex;
+    margin-top: 5rem;
+    background-color: var(--bg_utama);
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Style Body */
+main {
+    padding: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    
+}
+
+/* Box Container */
+.box_container {
+    background-color: transparent;
+    border-radius: 1rem;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+}
+
+/* Navbar Style */
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: var(--bg_kedua);
+    top: 0;
+    left: 0;
+    padding-left: 3rem;
+    margin-bottom: 12rem;
+    align-items: center;
+    display: flex;
+}
+
+.navbar p {
+    color: var(--bg_utama);
+    background-color: var(--bg_kedua);
+    font-size: large;
+    font-weight: 600;
+}
+
+/* Box2 Style */
+main .box2 {
+    background-color: var(--bg_kedua);
+    color: var(--bg_utama);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+/* Button Style */
+button {
+    margin-top: .5rem;
+    background-color: var(--bg_kedua);
+    color: var(--bg_utama);
+    padding: .5rem;
+    margin-left: .5rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--bg_utama);
+    border: solid var(--bg_kedua);
+    color: white;
+}
+
+textarea {
+    width: 400px;
+    height: 80px;
+}
+
+.textarea, #input_suhu, #hasil_suhu, #kalkulasi {
+    color: black;
+}
+
+.suhu_simbol {
+    font-family: math;
+    font-style: italic;
+}
+
+/* Footer Style */
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bg_kedua);
+    color: var(--bg_utama);
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+    font-weight: 500;
+}
+
+/* Tampilan Responsive */
