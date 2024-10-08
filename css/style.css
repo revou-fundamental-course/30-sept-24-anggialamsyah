@@ -142,3 +142,120 @@ footer {
 }
 
 /* Tampilan Responsive */
+/* Layar 900 */
+@media (max-width: 900px) {
+    html {
+        font-size: 82.5%;
+    }
+
+    .navbar p {
+        font-size: 100%;
+    }
+}
+
+
+/* Layar 768 */
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .navbar p {
+        font-size: 100%;
+    }
+}
+
+/* Layar 870 */
+@media (max-width: 670px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    textarea {
+        width: 60%;
+    }
+
+    .navbar p {
+        font-size: 100%;
+    }
+}
+
+/* Layar 560 */
+@media (max-width: 560px) {
+    html {
+        font-size: 52.5%;
+    }
+
+    body {
+        margin-top: 3rem;
+    }
+
+    .box_container {
+        margin-top: .5rem;
+    }
+
+    textarea {
+        width: 60%;
+    }
+
+    .navbar p {
+        font-size: 100%;
+    }
+}
+
+/* Layar 400 */
+@media (max-width: 400px) {
+    html {
+        font-size: 42.5%;
+    }
+
+    body {
+        margin-top: .5rem;
+    }
+
+    .box_container {
+        margin-top: 10px;
+    }
+
+    textarea {
+        width: 60%;
+    }
+
+    .navbar p {
+        font-size: 100%;
+    }
+}
+
+/* Layar 360 */
+@media (max-width: 400px) {
+    html {
+        font-size: 40%;
+    }
+
+    .box_container {
+        margin-top: 5px;
+    }
+
+    textarea {
+        width: 60%;
+    }
+
+    .navbar p {
+        font-size: 100%;
+    }
+}
+
+/* Layar 260 */
+@media (max-width: 260px) {
+    html {
+        font-size: 32.5%;
+    }
+
+    textarea {
+        width: 60%;
+    }
+
+    .navbar p {
+        font-size: 100%;
+    }
+}
