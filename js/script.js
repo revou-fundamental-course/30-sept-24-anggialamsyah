@@ -19,7 +19,7 @@ document.getElementById("konversi").addEventListener("click", function() {
         let celcius = document.getElementById("input_suhu").value;
         let hasil = document.getElementById("hasil_suhu").value;
 
-        cara = celcius + "\u00B0C "+ " * "+ " 9/5 + "+ 32 + " = " + hasil;
+        cara = celcius + "\u00B0C "+ " *  (9/5) + "+ 32 + " = " + hasil;
         document.getElementById("kalkulasi").value = cara;
     }
 
