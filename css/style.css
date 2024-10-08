@@ -68,10 +68,16 @@ main {
 /* Box2 Style */
 main .box2 {
     background-color: var(--bg_kedua);
-    color: var(--bg_utama);
+    color: black!important;
     padding: 1rem;
     border-radius: 1rem;
+    margin-top: 1rem;
 }
+
+.header_title h1 {
+    color: var(--bg_kedua);
+}
+
 
 /* Button Style */
 button {
@@ -81,6 +87,7 @@ button {
     padding: .5rem;
     margin-left: .5rem;
     border-radius: 12px;
+    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -93,6 +100,7 @@ button:hover {
 textarea {
     width: 400px;
     height: 80px;
+    margin-top: 1rem;
 }
 
 .textarea, #input_suhu, #hasil_suhu, #kalkulasi {
